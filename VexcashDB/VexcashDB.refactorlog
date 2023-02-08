@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="4d1dd045-acbf-4fa2-86fb-accf79311c5a" ChangeDateTime="02/08/2023 11:09:08">
+    <Property Name="ElementName" Value="[dbo].[Customer].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Customer]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CustomerId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9f794b41-5790-4b0d-8f98-90d2b3536b05" ChangeDateTime="02/08/2023 11:21:06">
+    <Property Name="ElementName" Value="[dbo].[EmailTemplate].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[EmailTemplate]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="EmailTemplateId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="49b9aa91-3b66-421a-8e1c-e4ff53f6b04d" ChangeDateTime="02/08/2023 11:22:49">
+    <Property Name="ElementName" Value="[dbo].[EmailTemplate]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[AlertTemplate]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="82994314-001f-4b21-8b54-3d6e70e91b7f" ChangeDateTime="02/08/2023 11:22:59">
+    <Property Name="ElementName" Value="[dbo].[AlertTemplate].[EmailTemplateId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[AlertTemplate]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AlertTemplateId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f2f9646f-5f5d-478f-bec2-2c253816ba91" ChangeDateTime="02/08/2023 11:23:04">
+    <Property Name="ElementName" Value="[dbo].[AlertTemplate].[EmailTemplateName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[AlertTemplate]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AlertTemplateName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="84650c5e-5baa-471e-94f6-df851d5af6e3" ChangeDateTime="02/08/2023 11:35:06">
+    <Property Name="ElementName" Value="[dbo].[AlertType].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[AlertType]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AlertTypeId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f415c1dc-9cfe-4a1f-b165-998ecf2835cf" ChangeDateTime="02/08/2023 11:40:09">
+    <Property Name="ElementName" Value="[dbo].[AlertLog].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[AlertLog]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AlertLogId" />
+  </Operation>
+</Operations>
